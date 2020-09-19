@@ -221,7 +221,7 @@ function randomQ() {
 		O2.nextElementSibling.innerHTML = totQ[x].opt2; // write option 2
 		O3.nextElementSibling.innerHTML = totQ[x].opt3; // write option 3
 		O4.nextElementSibling.innerHTML = totQ[x].opt4; // write option 4
-		O5.nextElementSibling.innerHTML = totQ[x].opt4; // write option 4
+		O5.nextElementSibling.innerHTML = totQ[x].hint; // write option 4
 	}
 	if (!thisAsked) {
 		// if random number is already asked and this didn't become true go inside and fire random question again
