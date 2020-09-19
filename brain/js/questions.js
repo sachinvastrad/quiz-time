@@ -89,7 +89,7 @@ var q7 = new CQuiz(
 // Question 8
 var q8 = new CQuiz(
 	'Which is the intended use for etcd?'
-	'To store all the cluster data, maintain its state and provide access to critical data'
+	'To store all the cluster data, maintain its state and provide access to critical data',
 	'To link a unique identifier to a value',
 	'To encrypt cluster data and send it to a secrets manager',
 	'To authenticate cluster data',
@@ -99,7 +99,7 @@ var q8 = new CQuiz(
 
 // Question 9
 var q9 = new CQuiz(
-	'what is use of Kubernetes namespace',
+	'what is use of Kubernetes namespace?',
 	'help different projects, teams, or customers to share a Kubernetes cluster',
 	'separate the pods',
 	'physical grouing of names',
