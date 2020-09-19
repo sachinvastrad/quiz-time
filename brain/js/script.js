@@ -203,6 +203,7 @@ var O1 = document.getElementById('opt1'); // option 01
 var O2 = document.getElementById('opt2'); // option 02
 var O3 = document.getElementById('opt3'); // option 03
 var O4 = document.getElementById('opt4'); // option 04
+var O5 = document.getElementById('hint'); // option 04
 
 // generates and places random questions...
 function randomQ() {
@@ -220,6 +221,7 @@ function randomQ() {
 		O2.nextElementSibling.innerHTML = totQ[x].opt2; // write option 2
 		O3.nextElementSibling.innerHTML = totQ[x].opt3; // write option 3
 		O4.nextElementSibling.innerHTML = totQ[x].opt4; // write option 4
+		O5.nextElementSibling.innerHTML = totQ[x].opt4; // write option 4
 	}
 	if (!thisAsked) {
 		// if random number is already asked and this didn't become true go inside and fire random question again
