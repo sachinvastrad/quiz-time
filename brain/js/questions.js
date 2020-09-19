@@ -11,15 +11,15 @@ function CQuiz(que, o1, o2, o3, o4, ans, d) {
 
 // Question 1
 var q1 = new CQuiz(
-	'Which function among the following lets to register a function to be invoked repeatedly after a certain time?',
-	'setTimeout()',
-	'setTotaltime()',
-	'setInterval()',
-	'none of the mentioned',
-	3,
+	
+	'What is a cluster?',
+	'A single system made up of servers and other resources',
+	'A computer program or device that provides services to other computers',
+	'A specific set of ordered operations',
+	'A software package that performs a specific function for an end user',
+	1,
 	0
 );
-
 // Question 2
 var q2 = new CQuiz(
 	'To which object does the location property belong?',
