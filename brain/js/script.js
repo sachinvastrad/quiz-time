@@ -203,7 +203,7 @@ var O1 = document.getElementById('opt1'); // option 01
 var O2 = document.getElementById('opt2'); // option 02
 var O3 = document.getElementById('opt3'); // option 03
 var O4 = document.getElementById('opt4'); // option 04
-var O5 = document.getElementById('hint'); // option 04
+var O5 = document.getElementById('h'); // option 04
 
 // generates and places random questions...
 function randomQ() {
