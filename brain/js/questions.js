@@ -1,5 +1,5 @@
 // Quiz Creator;
-function CQuiz(que, o1, o2, o3, o4, ans, d) {
+function CQuiz(que, o1, o2, o3, o4, ans, d,h) {
 	this.question = que;
 	this.opt1 = o1;
 	this.opt2 = o2;
@@ -7,6 +7,7 @@ function CQuiz(que, o1, o2, o3, o4, ans, d) {
 	this.opt4 = o4;
 	this.answer = ans;
 	this.asked = d;
+	this.hint = h;
 }
 
 // Question 1
@@ -18,7 +19,8 @@ var q1 = new CQuiz(
 	'A specific set of ordered operations',
 	'A software package that performs a specific function for an end user',
 	1,
-	0
+	0, 
+	'Hint : enable high availability, load balancing and parallel processing. A cluster is a logical rather than physical unit. Organizations can include many servers or just a few in a cluster as the applications requirements demand'
 );
 // Question 2
 var q2 = new CQuiz(
@@ -28,7 +30,8 @@ var q2 = new CQuiz(
 	'Where you find peas',
 	'One or more containers grouped together to share resources and run as a unit',
 	4,
-	0
+	0,
+	'Hint In Kubernetes terminology, pods are the smallest unit of container deployment. A pod is a group of one or more containers that share storage, network and operating specifications. Pods live on nodes, with one or more pod on each node'
 );
 
 // Question 3
@@ -39,7 +42,8 @@ var q3 = new CQuiz(
 	'A large metal box that is used to hold or transport something',
 	'A unit that stores data on a computers memory drive',
 	2,
-	0
+	0,
+	'Hint Kubernetes provides users with a management system for container-based applications, which is a relief from controlling each individual container. Containers operate on host machines through a shared OS, but they remain isolated from each other to run applications -- unless the administrator connects them'
 );
 
 // Question 4
@@ -50,7 +54,8 @@ var q4 = new CQuiz(
 	'To act as an intermediary between an endpoint device and another server',
 	'To relay connection requests for inbound network traffic',
 	3,
-	0
+	0,
+	'Hint Kubernetes makes use of several proxy services to manage containers. For example, kube-proxy, a networking and load balancing service, routes traffic to the appropriate container based on the IP address and incoming requests port number. The Kubernetes network proxy runs on each node. Other proxies in Kubernetes include the kubectl proxy and the apiserver proxy.'
 );
 
 // Question 5
@@ -61,7 +66,9 @@ var q5 = new CQuiz(
 	'A smaller version of Kubernetes',
 	'A device that collects data in an organized manner for easy access',
 	1,
-	0
+	0,
+	'Hint The kubelet node agent ensures that containers created by Kubernetes are operational and healthy in accordance with the pod description in a PodsSpec. For example, a kubelet can automatically restart a failed container.'
+	
 );
 
 // Question 6
@@ -72,7 +79,8 @@ var q6 = new CQuiz(
 	'To duplicate pods',
 	'To create and maintain volumes',
 	3,
-	0
+	0,
+	'Hint A ReplicaSet clones a pod at the users discretion and verifies that the correct number of pods runs. A Deployment manages a ReplicaSet'
 );
 
 // Question 7
@@ -83,7 +91,8 @@ var q7 = new CQuiz(
 	'To move workloads from one host to another',
 	'To control nodes',
 	3,	
-	0
+	0,
+	'Hint The control plane is a collection of components, such as the Kubernetes master and kubelet, that dictates how Kubernetes communicates with a user cluster. It works to manage and keep a record of Kubernetes Objects by running continuous loops of the system'
 );
 
 // Question 8
@@ -94,7 +103,8 @@ var q8 = new CQuiz(
 	'To encrypt cluster data and send it to a secrets manager',
 	'To authenticate cluster data',
 	1,
-	0
+	0,
+	'Hint A distributed key-value data store, etcd serves as the backing repository for Kubernetes cluster data. It helps to maintain the cluster configuration and state. Intended for permanent data storage and retrieval, etcd stores metadata and other information consistently with a fault-tolerant method, including full replication'
 );
 
 // Question 9
@@ -105,7 +115,8 @@ var q9 = new CQuiz(
 	'physical grouing of names',
 	'it does nothing',
 	1,
-	0 
+	0,
+	'Hint its used to logical divide the cluster into multiple partation',
 );
 
 // Question 10
@@ -116,7 +127,8 @@ var q10 = new CQuiz(
 	'it run inside container engine',
 	'it is schedular',
 	1,
-	0
+	0,
+	'Hint Utility used to send the command to k8 master node'
 );
 
 // total question...
