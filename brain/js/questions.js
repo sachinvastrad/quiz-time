@@ -88,7 +88,7 @@ var q7 = new CQuiz(
 
 // Question 8
 var q8 = new CQuiz(
-	'Which is the intended use for etcd?'
+	'Which is the intended use for etcd?',
 	'To store all the cluster data, maintain its state and provide access to critical data',
 	'To link a unique identifier to a value',
 	'To encrypt cluster data and send it to a secrets manager',
