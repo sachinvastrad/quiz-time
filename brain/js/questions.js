@@ -22,99 +22,99 @@ var q1 = new CQuiz(
 );
 // Question 2
 var q2 = new CQuiz(
-	'To which object does the location property belong?',
-	'Window',
-	'Position',
-	'Element',
-	'Location',
-	1,
+	'What is a pod in Kubernetes and what does it do?',
+	'A collection of physical IT components that supports a group of containers',
+	'A collection of logic circuitry that evaluates a computer's operational code',
+	'Where you find peas',
+	'One or more containers grouped together to share resources and run as a unit',
+	4,
 	0
 );
 
 // Question 3
 var q3 = new CQuiz(
-	'What is the result of the following code snippet? <br> <pre> window.location === document.location </pre>',
-	'False',
-	'True',
-	'1',
-	'0',
+	'In the context of Kubernetes, what is a container?',
+	'An application environment installed on software that imitates dedicated hardware',
+	'A package that relies on virtual isolation technology to deploy and run applications that access a shared OS kernel',
+	'A large metal box that is used to hold or transport something',
+	'A unit that stores data on a computers memory drive',
 	2,
 	0
 );
 
 // Question 4
 var q4 = new CQuiz(
-	'Which of the following is not a framework?',
-	'jQuery',
-	'.NET',
-	'JavaScript',
-	'None of the mentioned',
+	'Generally, what is a proxy service used for?',
+	'To supplant an authentic webpage in a search engine's index and search page results',
+	'To connect external parties and route data between internal and external containers',
+	'To act as an intermediary between an endpoint device and another server',
+	'To relay connection requests for inbound network traffic',
 	3,
 	0
 );
 
 // Question 5
 var q5 = new CQuiz(
-	'Inside which HTML element do we put the JavaScript?',
-	'&lt;javascript&gt;',
-	'&lt;script&gt;',
-	'&lt;scripting&gt;',
-	'&lt;js&gt;',
-	2,
+	'What is a kubelet?',
+	'A node agent that manages pods and their containers',
+	'Software that is used to run containers outside of pods',
+	'A smaller version of Kubernetes',
+	'A device that collects data in an organized manner for easy access',
+	1,
 	0
 );
 
 // Question 6
 var q6 = new CQuiz(
-	'What is the correct JavaScript syntax to change the content of the HTML element below? <br> <pre>&lt;p id="demo"&gtThis is made by Owais.&lt;/p&gt</pre>',
-	'document.getElementByName("p").innerHTML = "Hello World!";',
-	'#demo.innerHTML = "Hello World!";',
-	'document.getElementById("demo").innerHTML = "Hello World!";',
-	'document.getElement("p").innerHTML = "Hello World!";',
+	'What is the purpose of a ReplicaSet?',
+	'To prevent clones from invading other clusters',
+	'To monitor and respond to environmental latency',
+	'To duplicate pods',
+	'To create and maintain volumes',
 	3,
 	0
 );
 
 // Question 7
 var q7 = new CQuiz(
-	'What is the correct syntax for referring to an external script called "script.js"?',
-	'&lt;script src="script.js"&gt;',
-	'&lt;script href="script.js"&gt;',
-	'&lt;script name="script.js"&gt;',
-	'&lt;script link="script.js"&gt;',
-	1,
+	'What is the mission of the control plane?',
+	'To manage clusters of pods',
+	'To regulate communication between Kubernetes and clusters',
+	'To move workloads from one host to another',
+	'To control nodes',
+	3,	
 	0
 );
 
 // Question 8
 var q8 = new CQuiz(
-	'How do you write "Hello World" in an alert box?',
-	'alert("Hello World");',
-	'msgBox("Hello World");',
-	'prompt("Hello World");',
-	'alertBox("Hello World");',
+	'Which is the intended use for etcd?'
+	'To store all the cluster data, maintain its state and provide access to critical data'
+	'To link a unique identifier to a value',
+	'To encrypt cluster data and send it to a secrets manager',
+	'To authenticate cluster data',
 	1,
 	0
 );
 
 // Question 9
 var q9 = new CQuiz(
-	'How do you create a function in JavaScript?',
-	'function = myFunction()',
-	'function:myFunction()',
-	'function myFunction()',
-	'None of the mentioned',
-	3,
-	0
+	'what is use of Kubernetes namespace',
+	'help different projects, teams, or customers to share a Kubernetes cluster',
+	'separate the pods',
+	'physical grouing of names',
+	'it does nothing',
+	1,
+	0 
 );
 
 // Question 10
 var q10 = new CQuiz(
-	'How do you call a function named "myFunction"?',
-	'myFunction()',
-	'call function myFunction()',
-	'call myFunction()',
-	'None of the mentioned',
+	'kubectl is used for?',
+	'used to fire command towords Kubernetes apiserver',
+	'its is apiserver',
+	'it run inside container engine',
+	'it is schedular',
 	1,
 	0
 );
