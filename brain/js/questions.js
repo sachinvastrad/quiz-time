@@ -24,7 +24,7 @@ var q1 = new CQuiz(
 var q2 = new CQuiz(
 	'What is a pod in Kubernetes and what does it do?',
 	'A collection of physical IT components that supports a group of containers',
-	'A collection of logic circuitry that evaluates a computer's operational code',
+	'A collection of logic circuitry that evaluates a computers operational code',
 	'Where you find peas',
 	'One or more containers grouped together to share resources and run as a unit',
 	4,
@@ -45,7 +45,7 @@ var q3 = new CQuiz(
 // Question 4
 var q4 = new CQuiz(
 	'Generally, what is a proxy service used for?',
-	'To supplant an authentic webpage in a search engine's index and search page results',
+	'To supplant an authentic webpage in a search engine index and search page results',
 	'To connect external parties and route data between internal and external containers',
 	'To act as an intermediary between an endpoint device and another server',
 	'To relay connection requests for inbound network traffic',
